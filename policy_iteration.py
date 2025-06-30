@@ -1,5 +1,5 @@
 import numpy as np
-from environment import GraphicDisplay, Env
+from environment_p import GraphicDisplay, Env
 
 
 class PolicyIteration:
@@ -93,3 +93,4 @@ if __name__ == "__main__":
     policy_iteration = PolicyIteration(env)
     grid_world = GraphicDisplay(policy_iteration)
     grid_world.mainloop()
+
